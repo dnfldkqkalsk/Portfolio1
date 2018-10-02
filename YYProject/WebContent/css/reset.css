@@ -1,0 +1,34 @@
+/* 여백 초기화 */
+body, div, dl, dd, dt, ul, li, ul, h1, h2, h3, h4, h5, h6, form, legend,
+	textarea, select, fieldset, p, button, input, ol, i {
+	margin: 0;
+	padding: 0;
+}
+
+/* 링크 초기화 */
+a {
+	color: #273743;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #390;
+}
+
+/* 블릿기호 초기화 */
+ul {
+	list-style: none;
+}
+
+/* 폰트 초기화 */
+body, input, textarea, select, button, table {
+	font-family: "나눔 고딕", "Nanum Gothic", "돋움", Dotum, sans-serif;
+	font-size: 12px;
+	line-height: 1.7;
+}
+
+/* h태그 초기화 */
+h1, h2, h3, h4, h5, h6 {
+	font-size: 12px;
+	font-weight: normal;
+}

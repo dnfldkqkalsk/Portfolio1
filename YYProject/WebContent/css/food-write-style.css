@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+.food-write {
+	width: 60%;
+	height: 1050px;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+/*메뉴에 체크*/
+.header .menu .menu-food {
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: right;
+	margin-top: 58px;
+}
+
+.header .menu .menu-cafe {
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	margin-top: 90px;
+}
+
+.header .menu .menu-food .menu-food-i>i {
+	font-size: 30px;
+	color: #0054FF;
+	font-weight: bold;
+	padding-right: 15px;
+}
+/*메뉴에 체크*/
+
+/*food-write*/
+.food-write .write-title {
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	border-bottom: 5px solid #FFCD12;
+	margin-bottom: 20px;
+}
+
+.write-title h1 {
+	font-size: 35px;
+	font-family: 'Jua', sans-serif;
+	color: black;
+}
+
+.food-write .write-left {
+	width: 20%;
+	height: 90%;
+	text-align: right;
+	float: left;
+	border-bottom: 5px solid #FFCD12;
+}
+
+.food-write .write-right {
+	width: 80%;
+	height: 90%;
+	float: left;
+	border-bottom: 5px solid #FFCD12;
+}
+
+.write-left .bName, .write-left .bTel, .write-left .bTime, .write-left .bImg,
+	.write-left .bAdd, .write-left .bLocation, .write-left .bKind,
+	.write-left .bMenu, .write-left .bInfo, .write-left .bHash {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.write-left p {
+	font-size: 20px;
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-weight: bold;
+	color: black;
+	padding-right: 15px;
+}
+
+.write-left .bKind {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.write-left .bMenu {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.write-left .bInfo, .write-left .bHash {
+	width: 100%;
+	height: 200px;
+	padding-top: 5px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.write-right .bName, .write-right .bTel, .write-right .bTime,
+	.write-right .bImg, .write-right .bAdd, .write-right .bLocation {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.write-right input {
+	width: 300px;
+	height: 32px;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+.write-left .bKind {
+	height: 100px;
+}
+
+.write-right .bKind {
+	width: 100%;
+	height: 100px;
+	padding-top: 10px;
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.write-right .bKind input {
+	font-size: 18px;
+	width: 40px;
+	height: 20px;
+	margin-right: 2px;
+}
+
+.write-right .bLocation .bLocationBtn {
+	width: 150px;
+	height: 32px;
+	font-size: 18px;
+	margin-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+.write-right .bLocation #sample4_roadAddress {
+	width: 400px;
+	height: 32px;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+.bWriteBtn>a>i {
+	font-size: 30px;
+}
+
+.write-right select {
+	width: 150px;
+	height: 32px;
+	font-size: 18px;
+	padding-left: 10px;
+	margin-right: 10px;
+}
+
+.write-right .bMenu {
+	width: 90%;
+	height: 100px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.write-right .bMenu1, .bMenu2, .bMenu3 {
+	width: 30%;
+	height: 100%;
+	margin-right: 20px;
+}
+
+.write-right .bMenu input {
+	font-size: 15px;
+	width: 100%;
+	height: 30px;
+	padding-left: 10px;
+}
+
+.write-right .bInfo{
+	width: 100%;
+	height: 200px;
+}
+
+.write-right .bHash, .write-left .bHash, .write-right .bStar, .write-left .bStar{
+	
+	width: 100%;
+	height: 100px;
+}
+/*별점*/
+.write-right .bStar i{
+	letter-spacing: 3px;
+	padding-top: 3px;
+	color: red;
+	font-size: 25px;
+}
+
+.write-right textarea {
+	padding-left: 10px;
+}
+
+/*food-write*/
+
+/*bWriteBtn*/
+.bWriteBtn {
+	width: 60%;
+	height: 200px;
+	text-align: right;
+	margin: 0 auto;
+}
+
+.bWriteBtn input {
+	width: 100px;
+	height: 40px;
+	border : none;
+	background: #FFCD12;
+	font-size: 20px;
+	font-family: 'Jua', sans-serif;
+	margin-right : 10px;
+	
+}
+
+.write-right .bHash ul{
+  padding-top: 10px;
+  overflow: hidden;
+}
+.write-right .bHash ul > li{
+  float: left;
+  padding-right : 20px;
+  
+}

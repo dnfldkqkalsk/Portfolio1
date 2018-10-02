@@ -1,0 +1,433 @@
+/*전체*/
+#wrap {
+	width: 100%;
+	height: 100%;
+}
+/*상위박스*/
+#container {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	/*font-family: 'Nanum Gothic Coding', monospace;*/
+	font-family: 'Jua', sans-serif;
+}
+
+.header {
+	margin: 0 auto;
+	width: 100%;
+	height: 270px;
+	overflow: hidden;
+	background-color: #ff3c9d;
+}
+
+/*메뉴바*/
+.header .menu {
+	width: 15%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	margin-left: 50px;
+}
+
+/*-----food-----*/
+/*전체*/
+.header .menu .menu-food {
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: right;
+	margin-top: 90px;
+}
+
+/*글씨*/
+.menu-food p {
+	font-size: 20px;
+	font-family: 'Baloo Tammudu', cursive;
+	color: black;
+	padding-right: 8px;
+}
+/*-----food-----*/
+
+/*------cafe-----*/
+/*전체*/
+.header .menu .menu-cafe {
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	margin-top: 58px;
+}
+
+.header .menu .menu-cafe .menu-cafe-i>i {
+	font-size: 30px;
+	color: #0054FF;
+	font-weight: bold;
+}
+
+/*글씨*/
+.menu-cafe p {
+	font-size: 20px;
+	font-family: 'Baloo Tammudu', cursive;
+	color: black;
+}
+/*------cafe----*/
+
+/*로고*/
+.header .logo {
+	width: 60%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	font-family: 'Baloo Tammudu', cursive; /*logo font*/
+}
+
+.logo p {
+	padding-top: 90px;
+	padding-left: 60px;
+	font-size: 80px;
+	font-style: italic;
+	color: black;
+	text-shadow: 1.5px 1.5px 1.5px black; /*가로세로흐림색상*/
+}
+
+/*회원-비로그인*/
+.header .member {
+	width: 15%;
+	height: 100%;
+	float: right;
+	padding-top: 40px;
+	margin-right: 20px;
+}
+/*회원-로그인*/
+.header .member2 {
+	width: 15%;
+	height: 100%;
+	float: right;
+	padding-top: 40px;
+	margin-right: 20px;
+}
+/*-----login-----*/
+/*전체*/
+.header .member .member-login {
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	padding-top: 90px;
+}
+/*sessionID*/
+.header .member2 .member-user {
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: left;
+	padding-top: 125px;
+}
+/*sessionID 글씨*/
+.member-user p {
+	font-size: 20px;
+	font-family: 'Baloo Tammudu', cursive;
+	color: white;
+}
+
+/*logout*/
+.header .member2 .member-logout {
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: left;
+	padding-top: 90px;
+}
+
+.member-logout p {
+	font-size: 15px;
+	font-family: 'Baloo Tammudu', cursive;
+	color: black;
+}
+
+.member-logout img {
+	padding-left: 8.5px;
+}
+
+/*글씨*/
+.member-login p {
+	font-size: 15px;
+	font-family: 'Baloo Tammudu', cursive;
+	color: black;
+}
+/*-----login-----*/
+
+/*------join-----*/
+/*전체*/
+.header .member .member-join {
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: left;
+	padding-top: 90px;
+}
+
+/*글씨*/
+.member-join p {
+	font-size: 15px;
+	font-family: 'Baloo Tammudu', cursive;
+	color: black;
+	padding-left: 5px;
+}
+
+.member-join img {
+	padding-left: 3px;
+}
+
+/*------join----*/
+
+/*검색바*/
+.bar {
+	width: 680px;
+	height: 250px;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+
+.bar .search-bar {
+	float: left;
+	width: 580px;
+	height: 40px;
+	border: 1px solid black;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: white;
+}
+
+.bar .search-type {
+	float: left;
+	width: 70px;
+	height: 42px;
+	margin-right: 10px;
+}
+
+.bar .search-type select {
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+}
+
+.bar .search-bar input {
+	border: hidden;
+	width: 80%;
+	height: 100%;
+	margin-left : 5px;
+	padding-left: 15px;
+	float: left;
+	outline: none;
+	color: gray;
+}
+
+.bar .search-bar i {
+	width: 10%;
+	height: 100%;
+	color: black;
+	float: right;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.bar .hash {
+	width: 600px;
+	height: 80px;
+	margin: 0 auto;
+	overflow: hidden;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-left: 15px;
+	font-weight: bold;
+	margin-left : 55px;
+}
+
+.contents {
+	width: 90%;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+.contents .container {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+/*각 지역 맛집 공통속성*/
+.container img {
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+}
+
+.container .box-title {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/*글 가운데 정렬*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .box-title h1 { /*처음부터 나오게 함*/
+	font-size: 50px;
+	letter-spacing: 10px;
+	color: white;
+	text-shadow: 3px 3px 3px black; /*가로세로흐림색상*/
+}
+
+.container .cover { /*가만히 있는 상태*/
+	/*img위에 cover가 얹어져 있음*/
+	width: 100%;
+	height: 100%;
+	opacity: 0; /*투명:hover일때만 나타남*/
+	position: absolute;
+	background-color: black; /*효과를 까맣게 하기위함*/
+	top: 0;
+	left: 0;
+	transition: all .3s ease;
+	border-radius: 15px;
+}
+
+.cover-title { /*h1을위함*/
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*글정렬*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cover-title h1 {
+	font-size: 50px;
+	letter-spacing: 10px;
+	color: white;
+	text-shadow: 3px 3px 3px black; /*가로세로흐림색상*/
+	transition: all .3s ease;
+}
+
+.container a:hover .cover {
+	opacity: 0.5; /*연해지고*/
+}
+
+.container a:hover .cover-title {
+	opacity: 1; /*진해진다*/
+}
+
+.container a:hover .box-title {
+	opacity: 0; /*연해진다*/
+}
+/*각지역맛집 공통속성*/
+
+/*각 지역맛집 div*/
+.container .seoul {
+	width: 23%;
+	height: 280px;
+	margin-left: 1%;
+	margin-right: 2%;
+	float: left;
+	position: relative;
+}
+
+.container .incheon {
+	width: 23%;
+	height: 280px;
+	margin-right: 2%;
+	float: left;
+	position: relative;
+}
+
+.container .busan {
+	width: 23%;
+	height: 280px;
+	margin-right: 2%;
+	float: left;
+	position: relative;
+}
+
+.container .jeju {
+	width: 23%;
+	height: 280px;
+	float: left;
+	position: relative;
+}
+
+.container .gyeonggi {
+	width: 23%;
+	height: 280px;
+	margin-left: 1%;
+	margin-right: 2%;
+	margin-top: 80px;
+	float: left;
+	position: relative;
+}
+
+.container .gyeongsang {
+	width: 23%;
+	height: 280px;
+	margin-right: 2%;
+	margin-top: 80px;
+	float: left;
+	position: relative;
+}
+
+.container .jeonla {
+	width: 23%;
+	height: 280px;
+	margin-right: 2%;
+	margin-top: 80px;
+	float: left;
+	position: relative;
+}
+
+.container .gangwon {
+	width: 23%;
+	height: 280px;
+	margin-top: 80px;
+	float: left;
+	position: relative;
+}
+/*각 지역맛집 div*/
+.footer {
+	width: 100%;
+	height: 200px;
+	background-color: #5D5D5D;
+	color: #F6F6F6;
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.footer .footer-top {
+	width: 90%;
+	height: 30%;
+	margin: 0 auto;
+	border-bottom: 1px solid #F6F6F6;
+}
+
+.footer .footer-top p {
+	padding-top: 15px;
+	font-size: 20px;
+}
+
+.footer .footer-bottom {
+	width: 90%;
+	height: 70%;
+	margin: 0 auto;
+	/*가운데정렬*/
+	display: flex;
+	justify-content: left; /*왼쪽에 정렬*/
+	align-items: center;
+	/*가운데정렬*/
+}
+
+.footer .footer-bottom p {
+	padding-top: 7px;
+	font-size: 15px;
+}

@@ -1,0 +1,177 @@
+/*로그인 팝업창*/
+.login-box {
+	display: none; /*처음엔 숨겨놓는다. 띄우는 순간 보임*/
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.login-box .login-top {
+	width: 150px;
+	border-bottom: 6px solid #FFCD12;
+	margin: 0 auto;
+	margin-top: 65px;
+	margin-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+}
+
+.login-box .login-top h1 {
+	font-size: 35px;
+	letter-spacing: 6px;
+	font-weight: bold;
+	color: #5D5D5D;
+}
+
+.login-box .login-middle {
+	width: 250px;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.login-middle i {
+	width: 10%;
+	height: 20px;
+	float: left;
+	margin-top: 10px;
+}
+
+.login-middle input {
+	width: 90%;
+	height: 30px;
+	float: left;
+	margin-bottom: 30px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #5d5d5d;
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-size: 15px;
+}
+
+.login-bottom {
+	width: 150px;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.login-bottom .login-button {
+	width: 150px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 10px;
+	background-color: #FFCD12;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-bottom .login-button input {
+	border: 0px; /* submit 기본 테두리, 배경 없애기 */
+	background: none; /* submit 기본 테두리, 배경 없애기 */
+	outline: none; /* submit 기본 테두리, 배경 없애기 */
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+/*비밀번호 찾기*/
+.login-bottom .forget-pwd {
+	margin-top: 5px;
+}
+
+.login-bottom .forget-pwd input {
+	border: 0px;
+	background: none;
+	outline: none;
+	color: #5d5d5d;
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+
+/*회원가입 팝업창*/
+.join-box {
+	display: none; /*처음엔 숨겨놓는다. 띄우는 순간 보임*/
+	width: 400px;
+	height: 550px;
+	background-color: white;
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.join-box .join-top {
+	width: 150px;
+	border-bottom: 6px solid #FFCD12;
+	margin: 0 auto;
+	margin-top: 55px;
+	margin-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+}
+
+.join-top h1 {
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: 6px;
+	color: #5d5d5d;
+}
+
+.join-box .join-middle {
+	width: 250px;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.join-middle>div {
+	height: 30px;
+	margin-bottom: 30px;
+}
+
+.join-middle i {
+	width: 10%;
+	height: 20px;
+	float: left;
+	margin-top: 10px;
+}
+
+.join-middle input {
+	width: 90%;
+	height: 30px;
+	float: left;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #5d5d5d;
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-size: 15px;
+}
+
+.join-box .join-bottom {
+	width: 150px;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.join-bottom .join-button {
+	width: 150px;
+	height: 40px;
+	margin: 0 auto;
+	background-color: #FFCD12;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.join-bottom .join-button input {
+	border: 0px; /* submit 기본 테두리, 배경 없애기 */
+	background: none; /* submit 기본 테두리, 배경 없애기 */
+	outline: none; /* submit 기본 테두리, 배경 없애기 */
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Nanum Gothic Coding', monospace;
+}

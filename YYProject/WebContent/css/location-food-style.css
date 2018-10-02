@@ -1,0 +1,620 @@
+.contents2 {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.containter2 {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.container2 .title {
+	border-bottom: 5px solid #FFCD12;
+	margin: 0 auto;
+	width: 450px;
+	height: 53px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.bar .hash a {
+	text-decoration: none;
+	color: black;
+}
+
+.bar .hash a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.bar .hash p {
+	float: left;
+	margin-right: 15px;
+	padding-right: 8px;
+	padding-left: 5px;
+	text-align: center;
+	background-color: #FFCD12;
+	border-radius: 50px;
+}
+
+.container2 .title h1 {
+	font-size: 35px;
+	font-family: 'Jua', sans-serif;
+	color: black;
+}
+
+.header {
+	background-color: #FFCD12
+}
+
+.container2 .list { /*전체*/
+	width: 80%;
+	height: auto; /*auto로 주어야함*/
+	margin: 0 auto;
+	margin-top: 20px;
+	overflow: hidden;
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+
+/* list-view */
+.container2 .list-view {
+	width: 80%;
+	height: 300px;
+	margin: 0 auto;
+	border-bottom: 1px solid #5d5d5d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 70px;
+}
+
+.container2 .list-view .list-img {
+	overflow: hidden;
+	float: left;
+	width: 35%;
+	height: 253px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #5d5d5d;
+	box-sizing: border-box;
+}
+
+.container2 .list-view .list-img>img {
+	width: 100%;
+	height: 100%;
+}
+
+.container2 .list-view .list-intro { /*전체소개*/
+	float: left;
+	width: 65%;
+	height: 250px;
+	margin-left: 20px;
+}
+
+.container2 .list-view .list-intro .list-intro-top {
+	width: 100%;
+	height: 50%;
+	overflow: hidden;
+}
+
+.list-intro .list-intro-top .top-name {
+	width: auto; /*가게명 바로옆으로*/
+	float: left;
+}
+
+.top-name p {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.list-intro .list-intro-top .top-manage {
+	width: 80px;
+	float: left;
+	overflow: hidden;
+	margin-left: 20px;
+	margin-top: 21px;
+}
+
+.list-intro .list-intro-top .top-manage>div {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.list-intro .list-intro-top .top-manage p {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.list-intro .list-intro-top .top-star {
+	width: 50%; /*오른쪽 고정*/
+	height: 90px;
+	float: right;
+	text-align: right;
+}
+
+.top-star p {
+	letter-spacing: 5px;
+	margin-right: 20px;
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.container2 .list-view .list-intro .list-intro-bottom {
+	width: 100%;
+	height: 50%;
+	overflow: hidden;
+}
+
+.list-intro-bottom .bottom-intro {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.bottom-intro p {
+	font-size: 15px;
+}
+
+.list-intro-bottom .bottom-intro .bottom-kind {
+	width: 100%;
+	height: 40%;
+}
+
+.list-intro-bottom .bottom-intro .bottom-kind p {
+	float: left;
+	margin-right: 10px;
+}
+
+.list-intro-bottom .bottom-intro .bottom-arrow {
+	width: 100%;
+	height: 10%;
+	text-align: center;
+}
+
+.list-intro-bottom .bottom-intro .bottom-arrow i {
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	padding-right: 40px;
+	padding-top: 4px;
+}
+
+.list-intro-bottom .bottom-intro .bottom-location {
+	width: 100%;
+	height: 40%;
+}
+
+.list-intro-bottom .bottom-hash {
+	width: 50%;
+	height: 100%;
+	margin-top: 20px;
+	background: #F6F6F6;
+	float: left;
+	text-align: center;
+}
+
+.bottom-hash>p {
+	font-size: 15px;
+	font-family: 'Jua', sans-serif;
+	margin: 10px;
+}
+
+.bar .hash {
+	padding-left: 15px;
+}
+
+/*list-detail*/
+.container2 .list-detail {
+	width: 80%;
+	height: 1000px;
+	margin: 0 auto;
+	background-color: #f6f6f6;
+	padding: 20px;
+}
+
+.list-detail p {
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+.list-detail h1 {
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 20px;
+	font-style: italic;
+}
+
+.list-detail .detail-intro { /*상단*/
+	width: 100%;
+	height: 35%;
+	overflow: hidden;
+	border-bottom: 1px solid #5d5d5d;
+	padding-bottom: 15px;
+}
+
+.list-detail .detail-intro .intro-detail { /*가게소개*/
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: left;
+}
+
+.intro-detail .intro-intro {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	height: 40%;
+	padding-right: 10px;
+}
+
+.intro-intro p {
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 12px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: #818181;
+}
+
+.intro-intro p i {
+	font-size: 18px;
+	text-align: center;
+	margin-right: 5px;
+	margin-top: 4px;
+	width: 20px;
+	height: 20px;
+	color: #818181;
+}
+
+.intro-detail .intro-contents {
+	text-align: left;
+	width: 100%;
+	height: 60%;
+	padding-right: 15px;
+}
+
+.intro-contents p {
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-right: 20px;
+}
+
+.list-detail .detail-intro .intro-map { /*지도*/
+	width: 50%;
+	height: 100%;
+	float: left;
+	margin: 0 auto;
+	background-color: green;
+}
+
+.list-detail .detail-menu {
+	width: 100%;
+	height: 30%;
+	padding-top: 20px;
+	overflow: hidden;
+}
+
+.detail-menu img {
+	width: 250px;
+	height: 180px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+
+.detail-menu h6 {
+	font-size: 17px;
+	font-weight: bold;
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.detail-menu .menu1 {
+	width: 33%;
+	height: 200px;
+	text-align: center;
+	float: left;
+}
+
+.detail-menu .menu2 {
+	width: 33%;
+	height: 200px;
+	text-align: center;
+	float: left;
+}
+
+.detail-menu .menu3 {
+	width: 33%;
+	height: 200px;
+	text-align: center;
+	float: left;
+}
+
+/*메뉴에 체크*/
+.header .menu .menu-food {
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: right;
+	margin-top: 58px;
+}
+
+.header .menu .menu-cafe {
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	margin-top: 90px;
+}
+
+.header .menu .menu-food .menu-food-i>i {
+	font-size: 30px;
+	color: #0054FF;
+	font-weight: bold;
+	padding-right: 15px;
+}
+/*메뉴에 체크*/
+.writeAdmin {
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	float: right;
+	margin-right: 100px;
+}
+
+.writeAdmin>a>i {
+	font-size: 30px;
+}
+
+.footer {
+	margin-top: 100px;
+}
+
+/*별점 구현*/
+.top-star {
+	width: 100%; /*400으로 되어있음*/
+	height: 100%;
+	text-align: left;
+	overflow: hidden;
+}
+
+.top-star-admin, .top-star-user {
+	width: 100%;
+	height: 50%;
+	overflow: hidden;
+}
+
+.top-star-user {
+	padding-top: 10px;
+}
+
+.top-star-admin .star-admin, .top-star-user .star-user {
+	width: 20%;
+	height: 100%;
+	text-align: left;
+	float: left;
+}
+
+.top-star-admin .star-admin h6, .top-star-user .star-user h6 {
+	font-size: 12px;
+	color: black;
+	margin-right: 0px;
+	padding-top: 18px;
+}
+
+.admins-star, .users-star {
+	width: 65%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	height: 100%;
+}
+
+.admins-star i, .users-star i {
+	font-size: 35px;
+	color: red;
+}
+
+.admins-star-avg, .users-star-avg {
+	width: 15%;
+	height: 100%;
+	float: left;
+	text-align: right;
+}
+
+.admins-star-avg h6, .users-star-avg h6 {
+	font-size: 28px;
+	font-weight: bold;
+	color: black;
+	margin-right: 0px;
+}
+
+/*별점 구현*/
+
+/*댓글 구현*/
+.detail-reply {
+	width: 100%;
+	overflow: 0 auto;
+	margin-top: 30px;
+}
+/*댓글작성란*/
+.reply-write {
+	width: 100%;
+	height: 70px;
+	overflow: hidden;
+	text-align: center;
+}
+/*댓글별점*/
+.reply-write .r-write-star {
+	width: 19%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	background-color: white;
+	border-right : 0.5px solid darkgray;
+	padding-top : 25px;
+	padding-left : 2px;
+}
+
+.reply-write .r-write-star i{
+	color : red;
+	font-size : 25px;
+	letter-spacing: 4px;
+}
+
+/*댓글별점*/
+
+/*댓글입력*/
+.reply-write .r-write-comment {
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+
+.r-write-comment>input {
+	font-size: 15px;
+	padding-left: 10px;
+	color: black;
+	width: 100%;
+	height: 100%;
+	border: none;
+	background-color: white;
+}
+
+.r-write-comment>input:focus {
+	outline: none;
+}
+
+/*댓글입력*/
+
+/*댓글작성버튼*/
+.reply-write .r-write-button {
+	width: 10%;
+	height: 100%;
+	float: left;
+}
+
+.r-write-button>input {
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	width: 100%;
+	height: 100%;
+	letter-spacing: 3px;
+	border: 0.5px solid white;
+	background-color: #696969;
+}
+/*댓글작성버튼*/
+
+/*댓글보이는곳(리플)*/
+.reple {
+	width: 100%;
+	height: 200px;
+	margin-top: 15px;
+	overflow: scroll;
+	text-align: center;
+}
+
+.reple>ul>li {
+	height: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+}
+
+/*리플별점*/
+.reple-star {
+	width: 24%;
+	height: 100%;
+	float: left;
+	background-color : white;
+	border-right : 1px solid darkgray;
+}
+
+.reple-star i{
+	font-size : 20px;
+	letter-spacing: 4px;
+	color :red;
+	margin-top : 30px;
+	
+}
+/*리플별점*/
+
+/*리플content*/
+.reple-content {
+	width: 65%;
+	height: 100%;
+	float: left;
+	background-color: white;
+	font-size: 15px;
+	color: black;
+}
+
+.content-reple {
+	height: 70%;
+	background-color: white;
+	text-align: left;
+	border-bottom : 1px solid darkgray;
+	
+}
+.content-reple p{
+	padding-top : 20px;
+	font-weight: bold;
+}
+
+.content-reple-user {
+	height: 30%;
+	overflow: hidden;
+	text-align: left;
+}
+
+.content-reple-user .reple-id { /*사용자 아이디*/
+	border-right : 1px solid darkgray;
+	width: 30%;
+	float: left;
+	padding-left: 10px;
+}
+
+.content-reple-user .reple-date { /*등록일자*/
+	width: 30%;
+	float: left;
+	padding-left: 10px;
+}
+
+/*리플content*/
+
+/*리플버튼*/
+.reple-button {
+	width: 10%;
+	height: 100%;
+	float: left;
+}
+
+
+
+.reple-button .reple-delete { /*삭제버튼*/
+	height: 100%;
+	width: 100%;
+	padding-top : 30px;
+}
+
+.reple-delete> a {
+	font-size: 15px;
+	font-weight: bold;
+	color: #696969;
+	padding-right: 1%;
+	letter-spacing: 3px;
+}
+
+/*리플버튼*/
+
+/*댓글 구현*/
