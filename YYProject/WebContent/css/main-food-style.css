@@ -184,7 +184,7 @@
 /*검색바*/
 .bar {
 	width: 680px;
-	height: 250px;
+	height: 200px;
 	padding-top: 30px;
 	margin: 0 auto;
 }
@@ -265,7 +265,7 @@
 
 .contents {
 	width: 90%;
-	height: 1000px;
+	height: 750px;
 	margin: 0 auto;
 }
 

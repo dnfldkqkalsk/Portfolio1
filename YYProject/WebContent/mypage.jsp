@@ -226,7 +226,7 @@
 						var email = $('#find-email').val();
 						
 						$.ajax({
-							url : "/YYProject/foodWrite",
+							url : "/YYProject/user",
 							type : "post",
 							data : {
 								id : id,
@@ -257,7 +257,7 @@
 					//pass에 change-opass의 값을 담는다.
 					
 						$.ajax({
-							url : "/YYProject/foodWrite",
+							url : "/YYProject/user",
 							type : "post",
 							data : {
 								password : pass,
@@ -406,7 +406,7 @@
 						</div>
 
 						<!-- 숨겨져 있다가 비밀번호를 보여주는 칸 -->
-						<form action="/YYProject/foodWrite" method="post">
+						<form action="/YYProject/user" method="post">
 							<input type="hidden" name="actionName" value="findChangePass">
 							<div class="find-top2">
 								<div class="find-newPassword1">
@@ -446,7 +446,7 @@
 							<!-- 위에 #change-opass ajax를 걸어주었다. -->
 							<!-- ajax를 사용하는 이유는 동기식으로 바로 나타나야 하기 때문이다. -->
 						</div>
-						<form action="/YYProject/foodWrite" method="post">
+						<form action="/YYProject/user" method="post">
 							<input type="hidden" name="actionName" value="changePassCheck">
 							<div class="change-top2">
 								<div class="change-password">
@@ -477,7 +477,7 @@
 					<!-- 회원 탈퇴 -->
 					<div id="tab-3" class="tab-content">
 						<p>${sessionID }</p>
-						<form action="/YYProject/foodWrite" method="post">
+						<form action="/YYProject/user" method="post">
 							<input type="hidden" name="actionName" value="deletePassCheck">
 							<div class="delete-top">
 								<div class="delete-password">
