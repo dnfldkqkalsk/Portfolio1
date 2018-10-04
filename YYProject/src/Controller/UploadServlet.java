@@ -18,9 +18,6 @@ import com.oreilly.servlet.multipart.DefaultFileRenamePolicy;
 import DAO.FoodWriteDAO;
 import VO.FoodWriteVO;
 
-/**
- * Servlet implementation class UploadServlet
- */
 @WebServlet("/UploadServlet")
 public class UploadServlet extends HttpServlet {
 
@@ -75,7 +72,6 @@ public class UploadServlet extends HttpServlet {
 				bHash += "_"+tags[i];
 			}
 			vo.setbHash(bHash);
-			
 			
 			
 

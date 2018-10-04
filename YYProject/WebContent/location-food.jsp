@@ -298,6 +298,7 @@
 
 				<!--search-bar-->
 				<div class="hash">
+				<h3>Hot Keyword</h3>
 					<a href="/YYProject/user?actionName=search&t=tbHash&k=데이트"> <!-- searchAction에서 type과 keyword를 t, k로 받아주기 때문에 바꾼다. -->
 						<p>#데이트</p>
 					</a> <a href="/YYProject/user?actionName=search&t=tbHash&k=분위기 깡패">

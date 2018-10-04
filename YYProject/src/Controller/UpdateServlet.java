@@ -18,31 +18,18 @@ import com.oreilly.servlet.multipart.DefaultFileRenamePolicy;
 import DAO.FoodWriteDAO;
 import VO.FoodWriteVO;
 
-/**
- * Servlet implementation class UpdateServlet
- */
 @WebServlet("/UpdateServlet")
 public class UpdateServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
     public UpdateServlet() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doPost(request, response);
 	}
 
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("UTF-8");
 		response.setContentType("UTF-8");
@@ -84,6 +71,18 @@ public class UpdateServlet extends HttpServlet {
 			vo.setbHash(multi.getParameter("bHash"));
 			vo.setbStar(Integer.parseInt(multi.getParameter("bStar")));
 
+			//vo.setbHash(multi.getParameter("bHash")); 대신에 배열을 사용한다. 
+			//이름이 같으면 배열로 여러개를 담을 수 있다 .
+			String[] tags = multi.getParameterValues("hashTag"); 
+			//변수명은 쿼리에서 사용한 것 (input type="hidden" name=hashTag)
+			
+			//하나의 문자열로 만들어야 한다. 
+			String bHash = tags[0]; //첫번째는 _가 들어갈 필요가없으므로
+			for(int i=1; i<tags.length; i++) {
+				bHash += "_"+tags[i];
+			}
+			vo.setbHash(bHash);
+			
 			String[] uploadFiles = new String[4];
 		    // 전체 업로드할 파일이 4개
 			int count = 0;

@@ -27,6 +27,7 @@
 
 <script src='js/jquery-3.3.1.min.js'></script>
 <script src='js/jquery.bpopup.min.js'></script>
+<script src='js/score.js'></script> <!-- 별점구현을 위한 파일 -->
 <!--팝업창을 위한 파일-->
 <!--로그인 팝업창 jquery-->
 <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
@@ -328,7 +329,7 @@
 							}
 						})
 
-			})
+			
 						//해시
 			$('#addHash').on('keyup', function(e){
 				//이벤트가 발생할 객체이기 때문에 그 입력된 키를 받아와야 하기 때문에 매개변수가 필요하다
