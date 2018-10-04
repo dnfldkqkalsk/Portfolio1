@@ -106,7 +106,7 @@ public class FoodWriteDAO {
 				vo.setbMenu1_Detail(rs.getString("bMenu1_Detail"));
 				vo.setbMenu2_Detail(rs.getString("bMenu2_Detail"));
 				vo.setbMenu3_Detail(rs.getString("bMenu3_Detail"));
-				vo.setbInfo(rs.getString("bInfo"));
+				vo.setbInfo(rs.getString("bInfo").replace("\r\n", "<br/>"));
 				vo.setbStar(rs.getInt("bStar"));
 				
 				//vo.setbHash(rs.getString("bHash"));

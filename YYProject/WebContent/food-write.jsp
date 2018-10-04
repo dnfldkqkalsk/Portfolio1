@@ -6,6 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <!--style-->
+<link rel="stylesheet" href="css/main-cafe-style.css">
 <link rel="stylesheet" href="css/location-food-style.css">
 <link rel="stylesheet" href="css/member-style.css">
 <link rel="stylesheet" href="css/food-write-style.css">

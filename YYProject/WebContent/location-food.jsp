@@ -684,7 +684,7 @@
 		</div>
 		<!--wrap-->
 
-
+	
 		<!--login.html-->
 		<div class="login-box">
 			<form action="/YYProject/user" method="post">

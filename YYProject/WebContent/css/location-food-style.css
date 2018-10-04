@@ -551,12 +551,13 @@
 
 /*리플content*/
 .reple-content {
-	width: 65%;
+	width: 64%;
 	height: 100%;
 	float: left;
 	background-color: white;
 	font-size: 15px;
 	color: black;
+	border-right : 1px solid darkgray;
 }
 
 .content-reple {
@@ -597,6 +598,8 @@
 	width: 10%;
 	height: 100%;
 	float: left;
+	background-color: white;
+	
 }
 
 
@@ -604,10 +607,10 @@
 .reple-button .reple-delete { /*삭제버튼*/
 	height: 100%;
 	width: 100%;
-	padding-top : 30px;
 }
 
 .reple-delete> a {
+	padding-top : 30px;
 	font-size: 15px;
 	font-weight: bold;
 	color: #696969;
