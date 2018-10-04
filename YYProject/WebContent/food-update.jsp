@@ -377,7 +377,7 @@
 						</a>
 					</div>
 					<div class="menu-cafe">
-						<a href="main-cafe.jsp"> <img src="img/cafe.png">
+						<a href="main-food.jsp"> <img src="img/cafe.png">
 							<p>Cafe</p>
 						</a>
 					</div>
