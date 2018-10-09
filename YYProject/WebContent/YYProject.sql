@@ -11,6 +11,7 @@ create table member(
 
 select * from member;
 drop table member;
+delete from member where name = 'dhh';
 
 
 /*댓글 테이블*/

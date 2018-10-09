@@ -25,10 +25,18 @@
 
 <script src='js/jquery-3.3.1.min.js'></script>
 <script src='js/jquery.bpopup.min.js'></script>
+<script src='js/hash.js'></script>
 <!--팝업창을 위한 파일-->
 <!--로그인 팝업창 jquery-->
 <script>
     $(document).ready(function(){
+    	
+    	setInterval(function(){
+	    	$('#hotKeyword').css('color', 'hotpink');	
+    	}, 500);
+    	
+    	
+    	
       //member-login에 있는 a태그에 click이벤트를 걸어준다.
       $('.member-login').find('a').on('click', function(e){
         e.preventDefault();//하이퍼링크 실행 막기
@@ -78,8 +86,10 @@
 
 <!--회원가입 팝업창 jquery-->
 <script>
+
+	
     $(document).ready(function(){
-    	
+   
     	
       $("#checkId").on("click", function(){
     	  var inputId = $("#joinId").val(); //사용자가 입력한 값을 가져온다.
@@ -151,6 +161,12 @@
     	}
       })
       //비밀번호 일치 불일치
+      
+      
+      
+      
+      
+      
     })
     
 
@@ -248,7 +264,7 @@
 					<!--search-bar-->
 					
 					<div class="hash">
-					<h3>Hot Keyword</h3>
+					<h3 id="hotKeyword">Hot Keyword</h3>
 						<a href="/YYProject/user?actionName=search&t=tbHash&k=데이트">
 						<!-- searchAction에서 type과 keyword를 t, k로 받아주기 때문에 바꾼다. -->
 							<p>#데이트</p> <!-- 검색하는것과 마찬가지기 때문에 위에 search-type의 name명이 type인

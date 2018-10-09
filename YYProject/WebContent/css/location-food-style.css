@@ -602,11 +602,11 @@
 
 .reple-button .reple-delete { /*삭제버튼*/
 	height: 100%;
+	padding-top : 30px;
 	width: 100%;
 }
 
 .reple-delete> a {
-	padding-top : 30px;
 	font-size: 15px;
 	font-weight: bold;
 	color: #696969;
