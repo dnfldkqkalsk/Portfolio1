@@ -266,14 +266,31 @@
 				<div class="hash">
 					<h3 id="hotKeyword" class="black">Hot Keyword</h3>
 					<a href="/YYProject/user?actionName=search&t=tbHash&k=데이트"> <!-- searchAction에서 type과 keyword를 t, k로 받아주기 때문에 바꾼다. -->
-						<p>#데이트</p> <!-- 검색하는것과 마찬가지기 때문에 위에 search-type의 name명이 type인
-												것의 tbHash를 넣어주는 것이다. -->
-					</a> <a href="/YYProject/user?actionName=search&t=tbHash&k=분위기 깡패">
-						<p>#분위기 깡패</p>
-					</a> <a href="/YYProject/user?actionName=search&t=tbHash&k=친구랑">
+						<p>#데이트</p>
+					</a> 
+					<a href="/YYProject/user?actionName=search&t=tbHash&k=분위기">
+						<p>#분위기</p>
+					</a> 
+					<a href="/YYProject/user?actionName=search&t=tbHash&k=친구랑">
 						<p>#친구랑</p>
-					</a> <a href="/YYProject/user?actionName=search&t=tbHash&k=인스타 갬성">
-						<p>#인스타 갬성</p>
+					</a> 
+					<a href="/YYProject/user?actionName=search&t=tbHash&k=인스타">
+						<p>#인스타</p>
+					</a> 
+					<a href="/YYProject/user?actionName=search&t=tbHash&k=핫플레이스">
+						<p>#핫플레이스</p>
+					</a> 
+					<a href="/YYProject/user?actionName=search&t=tbHash&k=아늑한">
+						<p>#아늑한</p>
+					</a> 
+					<a href="/YYProject/user?actionName=search&t=tbHash&k=드라이브">
+						<p>#드라이브</p>
+					</a> 
+					<a href="/YYProject/user?actionName=search&t=tbHash&k=나들이">
+						<p>#나들이</p>
+					</a> 
+					<a href="/YYProject/user?actionName=search&t=tbHash&k=고급진">
+						<p>#고급진</p>
 					</a>
 				</div>
 				<!--hash-->
