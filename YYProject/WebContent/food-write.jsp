@@ -343,7 +343,19 @@
 					//위에서 가져온 hashTag를 가져온다. 
 					//엔터를 치고 나면 칸을 비워준다.
 					$(this).val(""); //공백으로 바꿔준다. 
- 				}
+ 				
+				
+				}else if($('#tags').on('click')){
+					var hashTag = $(this).val(); 
+					
+					$('#tags').remove('<li>#'+hashTag+'</li>'); //remove란 데이터까지 제거한다.
+					$('#tags').remove('<input type=hidden name=hashTag value=#'+hashTag+'>'); 
+					
+					$(this).val(""); 
+ 				
+				}
+								
+				
 			})
 			
 			
