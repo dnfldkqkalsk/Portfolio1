@@ -329,41 +329,41 @@
 							}
 						})
 						
-			//해시
+			//해시코드1
 			$('#addHash').on('keyup', function(e){
 				//이벤트가 발생할 객체이기 때문에 그 입력된 키를 받아와야 하기 때문에 매개변수가 필요하다
 				
 				if(e.keyCode == 13){
 					var hashTag = $(this).val(); //입력된 값을 hashTag에 담는다.
 					
-					$('#tags').append('<li>#'+hashTag+'</li>'); //append란 괄호안에 있는 내용들을 채워준다. 
-					$('#tags').append('<input type=hidden name=hashTag value=#'+hashTag+'>'); //자체가 html태그이다. 
+					$('#tags').append('<li>#'+hashTag+'</li>'); //append란 괄호안에 있는 내용들을 채워준다. 보여지는 화면에서 추가하는 것이다.
+					$('#tags').append('<input type=hidden name=hashTag id=#'+hashTag+' value=#'+hashTag+'>'); //자체가 html태그이다.
 					//실제 작업을 처리하기 위해 추가한다. submit하면 hashTag값이 넘어가는 실질적인 부분이다. 
 					
 					//위에서 가져온 hashTag를 가져온다. 
 					//엔터를 치고 나면 칸을 비워준다.
 					$(this).val(""); //공백으로 바꿔준다. 
- 				
-				
-				}else if($('#tags').on('click')){
-					var hashTag = $(this).val(); 
-					
-					$('#tags').remove('<li>#'+hashTag+'</li>'); //remove란 데이터까지 제거한다.
-					$('#tags').remove('<input type=hidden name=hashTag value=#'+hashTag+'>'); 
-					
-					$(this).val(""); 
- 				
 				}
-								
-				
 			})
-			
-			
-			
-
 		})
+		
+		
+		//해시코드2 -> 클릭시 해시코드 삭제
+		/*document ready로는 이벤트를 줄 수 없다. 
+		   document on으로만 동적으로 된 태그에 이벤트를 걸 수있기 때문에 사용한다.*/
+		$(document).on('click', '#tags > li', function(e){ //tags의 li태그에 있는 것이 클릭되면
+			alert($(e.currentTarget).text());
+            $('#'+$(e.currentTarget).text()).remove(); //클릭된 태그의 text를 지워라 -> id=#'+hashTag+'
+            $(e.currentTarget).remove(); //currentTarget는 클릭한 태그라는 뜻 (e에만 존재함)
+            
+            //우리가 해시를 추가할시 li태그와 input type=hidden태그가 같이 생긴다.
+            //li태그는 우리가 보여지는 화면에서 지우는 것이고 input type=hidden태그는 db에 들어갈값을 지워주는 것이다.
+        })
+        
+        
+        
 		//form태그에서 사용할 함수를 만들어준다. 
-		//해시태그를 위해 만들음
+		//해시코드3
 		//document.ready를 하기 전에 이거먼저 읽어옴 
 		function captureReturnKey(e){
 			if(e.keyCode==13 && e.srcElement.type != 'textarea') 
