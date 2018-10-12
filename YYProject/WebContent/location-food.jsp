@@ -178,9 +178,9 @@
 		    //keyup : 키를 눌렀다 뗐을 때 글자가 100글자 이상이면 발생
 			$('.comment-maxlength').on('keyup', function() {
 
-		        if($(this).val().length > 100) {
+		        if($(this).val().length > 40) {
 		        	alert('글자수 제한길이 초과');
-		            $(this).val($(this).val().substring(0, 100));
+		            $(this).val($(this).val().substring(0, 40));
 		        }
 		        
 		        
@@ -613,7 +613,7 @@
 												<!-- 최대 입력 글자수 100 -->
 												<input type="text" name="cContent" class="comment-maxlength"
 													maxlength="100"
-													placeholder="댓글을 입력하세요. 최대 한글 100자까지 가능합니다.">
+													placeholder="댓글을 입력하세요. 최대 한글 40자까지 가능합니다.">
 											</div>
 											<div class="r-write-button">
 												<input type="submit" value="등록">
